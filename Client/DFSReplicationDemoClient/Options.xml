@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Options>
+  <IntervalEnabled>false</IntervalEnabled>
+  <TimerInterval>5000</TimerInterval>
+  <Folders Source="c:\Temp" Destination="c:\TempD" FileMask="*.*" />
+  <Folders Source="c:\Temp2" Destination="c:\Temp2D" FileMask="*.*" />
+</Options>

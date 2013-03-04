@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A3816067-0E26-4D50-B51D-C04729F41334}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{9F69A51F-FFBC-43D2-9A40-18EC371285DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSReplicationDemoClient", "Client\DFSReplicationDemoClient\DFSReplicationDemoClient.csproj", "{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3202A5A0-285C-4628-BB8A-D9E815F7D27E}"
+	ProjectSection(SolutionItems) = preProject
+		DFSReplicationDemo.vsmdi = DFSReplicationDemo.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSReplicationDemoTest", "Test\DFSReplicationDemoTest\DFSReplicationDemoTest.csproj", "{4F76CF26-DC7A-46B2-9CC9-A927882C9594}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DFSReplicationDemo.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Debug|x86.ActiveCfg = Debug|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Debug|x86.Build.0 = Debug|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Release|Any CPU.ActiveCfg = Release|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Release|x86.ActiveCfg = Release|x86
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F}.Release|x86.Build.0 = Release|x86
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F76CF26-DC7A-46B2-9CC9-A927882C9594} = {A3816067-0E26-4D50-B51D-C04729F41334}
+		{6D937AD8-4F7C-4187-89B8-3A6F7301C93F} = {9F69A51F-FFBC-43D2-9A40-18EC371285DC}
+	EndGlobalSection
+EndGlobal
